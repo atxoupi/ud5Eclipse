@@ -9,6 +9,9 @@ public class Main {
                
         }
     public static void operativa_cuenta(CCuenta cuenta){
+    	/*
+    	 * Método operativa cuenta
+    	*/
         double saldoActual = cuenta.estado();
         float cantidad;
         System.out.println("El saldo actual es"+ saldoActual );
